@@ -812,3 +812,31 @@ ul {
     font-size: 3.45rem;
   }
 }
+
+
+
+.footer-bottom {
+  text-align: center;
+  padding: 22px 20px 26px;
+  border-top: 1px solid rgba(216, 176, 106, 0.18);
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-bottom p + p {
+  margin-top: 8px;
+}
+
+.developer-credit {
+  display: block;
+  font-size: 0.86rem;
+  color: #d8b06a;
+  opacity: 1;
+}
+
+.developer-credit strong {
+  color: #f1df9b;
+  font-weight: 700;
+}
