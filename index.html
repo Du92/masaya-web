@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Masaya – Refugio de Bienestar</title>
+  <meta name="description" content="Masaya es un refugio de bienestar en las Islas Canarias. Masajes relajantes, descontracturantes, aromaterapia y tratamientos personalizados." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Navegación principal">
+      <a href="#inicio" class="logo" aria-label="Ir al inicio">
+        <img src="img/logo-masaya.jpeg" alt="Logo de Masaya" />
+        <span class="logo-text">
+          <strong>Masaya</strong>
+          <small>Refugio de Bienestar</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre">Sobre Masaya</a></li>
+        <li><a href="#tratamientos">Tratamientos</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Bienestar · Calma · Cuidado corporal</p>
+        <h1>Masaya</h1>
+        <h2>Refugio de Bienestar</h2>
+        <p class="hero-text">Un espacio para reconectar con tu cuerpo, calmar la mente y recuperar el equilibrio.</p>
+        <div class="hero-buttons">
+          <a href="#contacto" class="btn btn-primary">Reservar cita</a>
+          <a href="#tratamientos" class="btn btn-secondary">Ver tratamientos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section about-section">
+      <div class="container two-column">
+        <div class="section-text reveal">
+          <p class="section-kicker">Sobre Masaya</p>
+          <h2>Un refugio de calma en las Islas Canarias</h2>
+          <p>Masaya nace como un refugio de calma en las Islas Canarias, un espacio pensado para detener el ritmo diario y volver al bienestar a través del masaje, la atención consciente y el cuidado personalizado.</p>
+          <p>Masaya es un refugio de bienestar creado para quienes buscan una pausa real, un espacio de calma y una experiencia de cuidado profundo. Cada sesión está pensada para acompañar al cuerpo a liberar tensiones, equilibrar la energía y recuperar una sensación natural de ligereza.</p>
+          <p>En Masaya combinamos técnicas de masaje relajante, descontracturante y terapias corporales personalizadas en un entorno sereno, cálido y acogedor. Nuestro objetivo es que cada persona encuentre su propio ritmo de descanso, conexión y renovación.</p>
+        </div>
+
+        <aside class="about-card reveal" aria-label="Cuidado consciente">
+          <span class="about-icon">✦</span>
+          <h3>Cuidado consciente</h3>
+          <p>Cada tratamiento se adapta a tus necesidades, respetando el ritmo del cuerpo y creando una experiencia de bienestar íntima, profesional y restauradora.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="video" class="section video-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Nuestro espacio</p>
+          <h2>Descubre Masaya</h2>
+          <p>Un ambiente cálido, natural y sereno, diseñado para que puedas relajarte desde el primer momento.</p>
+        </div>
+
+        <div class="video-wrapper reveal">
+          <video id="masayaVideo" controls muted playsinline preload="metadata" poster="img/masaya-1.jpg">
+            <source src="video/masaya.mp4" type="video/mp4" />
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section id="tratamientos" class="section treatments-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Tratamientos</p>
+          <h2>Masajes y rituales de bienestar</h2>
+          <p>Sesiones diseñadas para liberar tensiones, relajar la mente y acompañarte hacia una sensación profunda de equilibrio.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card reveal">
+            <h3>Masaje relajante</h3>
+            <p>Un masaje suave y envolvente para reducir el estrés, calmar la mente y favorecer el descanso.</p>
+            <div class="service-meta"><span>Duración: 60 min</span><span>Precio: consultar</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Masaje descontracturante</h3>
+            <p>Tratamiento enfocado en zonas de tensión muscular, ideal para espalda, cuello, hombros y piernas.</p>
+            <div class="service-meta"><span>Duración: 60 / 75 min</span><span>Precio: consultar</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Masaje con aromaterapia</h3>
+            <p>Una experiencia sensorial con aceites esenciales para favorecer la calma, la respiración y la relajación profunda.</p>
+            <div class="service-meta"><span>Duración: 60 min</span><span>Precio: consultar</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Masaje corporal integral</h3>
+            <p>Sesión completa para trabajar el cuerpo de forma global, liberando carga física y mental.</p>
+            <div class="service-meta"><span>Duración: 90 min</span><span>Precio: consultar</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Ritual de bienestar</h3>
+            <p>Una experiencia más pausada y completa, pensada para renovar cuerpo, mente y energía.</p>
+            <div class="service-meta"><span>Duración: 90 / 120 min</span><span>Precio: consultar</span></div>
+          </article>
+
+          <article class="service-card reveal">
+            <h3>Tratamiento personalizado</h3>
+            <p>Sesión adaptada a tus necesidades concretas, combinando distintas técnicas de masaje y cuidado corporal.</p>
+            <div class="service-meta"><span>Duración: a convenir</span><span>Precio: consultar</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section gallery-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Galería</p>
+          <h2>Un ambiente para descansar</h2>
+          <p>Detalles naturales y rincones pensados para tu bienestar.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item reveal"><img src="img/aya.jpeg" alt="Espacio de masaje Masaya" /></figure>
+          <figure class="gallery-item reveal"><img src="img/instrumentos.jpg" alt="Ambiente relajante en Masaya" /></figure>
+          </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-box reveal">
+        <div class="contact-content">
+          <p class="section-kicker">Reserva y contacto</p>
+          <h2>Reserva tu momento de bienestar</h2>
+          <p>Reserva tu momento de bienestar. Escríbenos o llámanos para encontrar el tratamiento que mejor se adapta a ti.</p>
+
+          <ul class="contact-list">
+            <li><strong>Teléfono:</strong> <a href="tel:+34600000000">+34 600 000 000</a></li>
+            <li><strong>Email:</strong> <a href="mailto:reservas@masaya.es">reservas@masaya.es</a></li>
+          </ul>
+
+          <div class="contact-buttons">
+            <a class="btn btn-primary" href="https://wa.me/34600000000" target="_blank" rel="noopener noreferrer">Reservar por WhatsApp</a>
+            <a class="btn btn-secondary" href="mailto:reservas@masaya.es">Enviar email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ubicacion" class="section location-section">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-kicker">Ubicación</p>
+          <h2>Dónde encontrarnos</h2>
+          <p>Estamos en las Islas Canarias.</p>
+        </div>
+
+        <div class="map-wrapper reveal">
+          <!--
+            PEGA AQUÍ TU IFRAME REAL DE GOOGLE MAPS.
+            1. Abre Google Maps.
+            2. Busca la ubicación exacta de Masaya.
+            3. Haz clic en Compartir.
+            4. Entra en Insertar un mapa.
+            5. Copia el iframe y sustituye el iframe de ejemplo de abajo.
+          -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.117137488237!2d-17.765720099999996!3d28.686142400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6bed0074a9d6c9%3A0x964985cc9ce01048!2sMasaya%20refugio%20de%20bienestar!5e0!3m2!1ses!2ses!4v1780675515473!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <h2>Masaya</h2>
+        <p>Refugio de Bienestar</p>
+      </div>
+
+      <div class="footer-contact">
+        <p><strong>Teléfono:</strong> <a href="tel:+34600000000">+34 600 000 000</a></p>
+        <p><strong>Email:</strong> <a href="mailto:reservas@masaya.es">reservas@masaya.es</a></p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre Masaya</a>
+        <a href="#tratamientos">Tratamientos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#ubicacion">Ubicación</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="currentYear"></span> Masaya – Refugio de Bienestar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
